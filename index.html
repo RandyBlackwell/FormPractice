@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Practice Project</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label>
+            First Name:
+            <input name="name" type="text" value="firstname" placeholder="John" required>
+            Last Name:
+            <input name="name" type="text" value="lastname" placeholder="Smith" required>
+        </label><br>
+        <label>
+            Male
+            <input type="radio" name="gender" value="Male">
+            Female
+            <input type="radio" name="gender" value="Female">
+            Other
+            <input type="radio" name="gender" value="Other">
+        </label><br>
+        <label>
+            E-mail:
+            <input type="email" name="email" value="email" placeholder="johnsmith@email.com" required>
+            Password:
+            <input type="password" name="password" value="password" placeholder="your password" minlength="5" maxlength="10" required>
+        </label><br>
+        <label>
+            Birthday:
+            <input type="month" name="Birthday" value="month" placeholder="Month">
+            <input type="number" name="Birthday" min="1" max="31" placeholder="Day">
+            <input type="number" name="Birthday" min="1930" max="2019" placeholder="Year">
+        </label><br>
+        <label>
+            I agree to the terms and conditions:
+            <input type="radio" name="terms" value="agreeterms" required>
+        </label><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
